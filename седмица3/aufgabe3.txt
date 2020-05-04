@@ -1,0 +1,31 @@
+Frage_1:  
+    #include <iostream> // Using standard library header files
+    #include "xxx.hpp" // header in local directory
+ 
+Frage_2:
+Es ist gefährlich, eine Exception aus einem Destruktor herauszuwerfen.
+Wenn sich bereits eine andere Exception vorliegt, wird das Program beendet, 
+d.h. wenn sie gleichzeitig vorliegen
+
+Frage_3:
+
+
+
+Frage_4:
+Eine Klasse ist Pass-by-Reference und Struct ist Pass-by-Copy. Dies bedeutet,
+dass Class ein Referenztyp ist und sein Objekt im Heap-Speicher erstellt wird, 
+wobei als Struktur ein Werttyp und sein Objekt im Stack-Speicher erstellt wird.
+Die Klasse kann eine Unterklasse erstellen, die die Eigenschaften und Methoden des übergeordneten Elements erbt, 
+während Struct die Vererbung nicht unterstützt.
+Eine Klasse hat standardmäßig alle Mitglieder auf private gesetzt. Eine Struktur ist eine Klasse, 
+in der Mitglieder standardmäßig public sind.
+
+Frage_5:
+Ein Union ist ein benutzerdefinierter Datentyp, 
+der Mitglieder unterschiedlicher Größe und unterschiedlichen Typs enthalten kann.
+Union verwendet einen einzelnen Speicherort, um mehr als eine Variable zu speichern.
+Wir können jeweils nur auf ein Unionmitglied zugreifen,
+da wir nur einen Speicherort dafür haben, sodass jeweils nur eines Mitglied verwendet werden kann.
+Alle anderen Mitglieder enthalten den Garbage-Wert (d. h. Werden beschädigt).
+Dies ist bei Structs nicht der Fall, bei denen wir gleichzeitig auf alle Variablen des Mitglieds zugreifen können,
+da jede einen anderen Speicherplatz belegt.
